@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect, } from "react";
 import { Layout, Drawer, Menu, Table, Divider, Input, Select, Button, Skeleton, message } from "antd";
 import { MenuOutlined } from "@ant-design/icons";
 import Link from "next/link";
-import { useApp } from "../pages/context/AppContext";
+import { useApp } from "../context/AppContext";
 
 const { Header, Content } = Layout;
 
